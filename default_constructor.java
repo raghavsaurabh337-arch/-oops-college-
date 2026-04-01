@@ -12,7 +12,7 @@ class def_con
      }
      void display()
      {
-          System.out.println(a+" "+b+" "+c+" "+d);
+          System.out.println(a+" "+b+" "+c+" "+d );
 
      }
 }
