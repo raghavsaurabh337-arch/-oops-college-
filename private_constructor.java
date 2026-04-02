@@ -1,4 +1,4 @@
-class private_const{
+private class private_const{
      int a;
      double b;
      String c;
