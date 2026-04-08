@@ -13,16 +13,11 @@ class private_const{
 
      
 }
-class b{
-               private_const obj =new private_const();
-
-     
-}
 
 public class private_constructor {
      public static void main(String[] args) {
-          // private_const obj =new private_const();
-          b ob=new b();
+          private_const obj = new private_const();
+         
 
          
      }
