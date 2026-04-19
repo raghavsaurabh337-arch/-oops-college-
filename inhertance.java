@@ -1,4 +1,3 @@
-
 class animal{
      int a=10;
      void baise(){
