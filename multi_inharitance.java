@@ -1,5 +1,7 @@
 interface  debit{
-     void debitcard();
+     void debitcard(){
+          System.out.println("this is debit card interface");
+     }
 }
 
 
