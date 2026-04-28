@@ -7,7 +7,7 @@ class MyThread extends Thread {
 public class demo{
     public static void main(String[] args) {
         MyThread t1 = new MyThread();
-        t1.setDaemon(true);   // make daemon
+        t1.setDaemon(true);  
         t1.start();
     }
 }
