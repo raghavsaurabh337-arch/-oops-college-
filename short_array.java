@@ -5,29 +5,38 @@ public class short_array {
 
         Scanner sc = new Scanner(System.in);
 
-        // Array size input
+       
         System.out.print("Enter the size of array: ");
         int n = sc.nextInt();
 
-        // Creating short array
         short[] arr = new short[n];
 
-        // Taking array elements input
+        
         System.out.println("Enter the elements:");
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextShort();
         }
 
-        // Displaying array elements
-        System.out.println("Array elements are:");
+       
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+
+                if (arr[i] > arr[j]) {
+                    short temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+
+        
+        System.out.println("Sorted Array:");
 
         for (int i = 0; i < n; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
 
         sc.close();
     }
-} {
-     
 }
