@@ -1,14 +1,22 @@
-class varible{
-     int b=10; //goble varibles
-     static int c=10; // static goble varibles
 
-     void fun(){
-          int a=10; // local varibles
-          static int d=10; //static  local varibles
+class Encapslution{
+     private int a=10;
+     void setnum(int b){
+          a=b;
+
+
+     }
+     int getnum(){
+          return a;
+
      }
 }
+
 public class revision_java{
      public static void main(String[] args){
+          Encapslution obj =new Encapslution();
+          obj.setnum(67);
+          System.out.println(obj.getnum());
           
 
 
