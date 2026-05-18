@@ -8,6 +8,9 @@ class Encapslution{
      }
      int getnum(){
           return a;
+System.out.println("this is a getter meyhod");
+          
+
 
      }
 }
